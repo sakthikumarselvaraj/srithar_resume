@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Sample Resume</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+  <script src="https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+
+
+
+<div class="container" id="resume">
+  <div class="header">
+    <div class="full-name">
+      <span class="first-name">S.</span> 
+      <span class="last-name">Sridhar</span>
+    </div>
+    <div class="contact-info">
+      <span class="email">Email: </span>
+      <span class="email-val">sritharitachi07@gmail.com</span>
+      <span class="separator"></span>
+      <span class="phone">Phone: </span>
+      <span class="phone-val">7708440153</span>
+    </div>
+    
+    <div class="about">
+      <span class="position">Objective</span>
+      <span class="desc">
+        To work  in a creative & challenging environment where i could enrich my skills. I'm motivated, result-focused and seeking a successful team-oriented company with opportunity to grow. 
+      </span>
+    </div>
+  </div>
+   <div class="details">
+    <div class="section">
+    <div class="section">
+      <div class="section__title">Education</div>
+      <div class="section__list">
+        <div class="section__list-item">
+          <div class="left">
+            <div class="name">B.E CSE Anjalaiammal mahalingam Engg College,</div>
+            <div class="addr">Kovilvenni,Thiruvarur.</div>
+            <div class="duration">2017-2021</div>
+          </div>
+          <div class="right">
+            <div class="name"></div>
+            <div class="desc">Score- 73%</div>
+          </div>
+        </div>
+        <div class="section__list-item">
+          <div class="left">
+            <div class="name">School Schooling</div>
+            <div class="addr">S.S.L.C -90% (2013-2014)
+              H.S.C - 74% (2015-2016)</div>
+            <div class="duration">Christ The King Matric.Hr.Sec.School. </div>
+          </div>
+          <div class="right">
+            <div class="name"></div>
+            <div class="desc"></div>
+          </div>
+        </div>
+
+      </div>
+      
+  </div>
+     <div class="section">
+      <div class="section__title">Projects</div> 
+       <div class="section__list">
+         <div class="section__list-item">
+           <div class="name"></div>
+           <div class="text">Online Voting System Using Using Non-interactive Zero Knowledge Proof</div>
+         </div>
+         
+         <div class="section__list-item">
+                    <div class="name"></div>
+           <div class="text"> <a href="/login"></a>
+           </div>
+         </div>
+       </div>
+    </div>
+     <div class="section">
+       <div class="section__title">Skills</div>
+       <div class="skills">
+         <div class="skills__item">
+           <div class="left"><div class="name">
+             PYTHON
+             </div></div>
+           <div class="right">
+                          <input  id="ck1" type="checkbox" checked/>
+
+             <label for="ck1"></label>
+                          <input id="ck2" type="checkbox" checked/>
+
+              <label for="ck2"></label>
+                         <input id="ck3" type="checkbox" />
+
+              <label for="ck3"></label>
+                           <input id="ck4" type="checkbox" />
+            <label for="ck4"></label>
+                          <input id="ck5" type="checkbox" />
+              <label for="ck5"></label>
+
+           </div>
+         </div>
+         
+       </div>
+       <div class="skills__item">
+           <div class="left"><div class="name">
+             HTML & CSS</div></div>
+           <div class="right">
+                          <input  id="ck1" type="checkbox" checked/>
+
+             <label for="ck1"></label>
+                          <input id="ck2" type="checkbox" checked/>
+
+              <label for="ck2"></label>
+                         <input id="ck3" type="checkbox" />
+
+              <label for="ck3"></label>
+                           <input id="ck4" type="checkbox" />
+            <label for="ck4"></label>
+                          <input id="ck5" type="checkbox" />
+              <label for="ck5"></label>
+
+           </div>
+         </div>
+         
+       </div>
+     <div class="section">
+     <div class="section__title">
+       Interests
+       </div>
+       <div class="section__list">
+         <div class="section__list-item">
+                  Editing, Gaming, programming.
+          </div>
+       </div>
+     </div>
+     </div>
+  </div>
+</div>
+<!-- partial -->
+  
+  <button onclick="generatePdf()">pdf</button>
+</body>
+</html>
